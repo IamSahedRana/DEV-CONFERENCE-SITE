@@ -233,3 +233,142 @@ body{
     line-height:1.6;
 }
 
+/* Pricing  Section CSS -- Start */
+
+.pricing-section{
+
+    padding:100px 0;
+    background:#ffffff;
+
+}
+
+.pricing-title{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.pricing-title h2{
+
+    font-size:48px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:15px;
+
+}
+
+.pricing-title p{
+
+    font-size:18px;
+    color:#6b7280;
+
+}
+
+.pricing-cards{
+
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+
+}
+
+.pricing-card{
+
+    width:33.33%;
+    padding:35px;
+
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+
+    background:#ffffff;
+
+}
+
+.active-plan{
+
+    background:#0f1c2e;
+    color:#ffffff;
+    border:none;
+
+}
+
+.active-plan h3,
+.active-plan p,
+.active-plan li{
+
+    color:#ffffff;
+
+}
+
+.active-plan hr{
+
+    border-color:rgba(255,255,255,.15);
+
+}
+
+
+.plan-name{
+
+    display:block;
+
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:1px;
+
+    color:#2563eb;
+    margin-bottom:15px;
+
+}
+
+.pricing-card h3{
+
+    font-size:58px;
+    font-weight:700;
+
+    color:#111827;
+
+}
+
+.plan-duration{
+
+    color:#6b7280;
+    margin-top:8px;
+    margin-bottom:25px;
+
+}
+
+.pricing-card hr{
+
+    border:none;
+    border-top:1px solid #e5e7eb;
+    margin-bottom:30px;
+
+}
+
+.pricing-card ul{
+
+    list-style:disc;
+    padding-left:18px;
+    margin-bottom:35px;
+
+}
+
+.pricing-card ul li{
+
+    margin-bottom:16px;
+    color:#374151;
+    line-height:1.5;
+
+}
+
+.standard-btn,
+.pro-btn,
+.team-btn{
+
+    display:block;
+    text-align:center;
+
+}
+
+/* Pricing Section Css -- End */
