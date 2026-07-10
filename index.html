@@ -1,322 +1,238 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title> Dev Conference</title>
-     <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dev Conference</title>
+    <link rel="stylesheet" href="style.css" />
 
+    <!-- Site Font -->
 
-     <!-- Site Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
-</head>
-<body>
-     <header class="header">
-
-    <div class="container">
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
         <nav class="navbar">
+          <!-- Logo -->
 
-            <!-- Logo -->
+          <div class="logo-area">
+            <a href="" class="logo">
+              <img src="./Images/logo-mini.png" alt="Dev Conference Logo" />
 
-            <div class="logo-area">
+              <div class="logo-text">
+                <h2>DEVCONF</h2>
+                <p>2026</p>
+              </div>
+            </a>
+          </div>
 
-                <a href="" class="logo">
+          <div class="nav-area">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="">Speakers</a>
+              </li>
 
-                    <img src="./Images/logo-mini.png" alt="Dev Conference Logo">
+              <li class="nav-item">
+                <a href="">Schedule</a>
+              </li>
 
-                    <div class="logo-text">
-                        <h2>DEVCONF</h2>
-                        <p>2026</p>
-                    </div>
+              <li class="nav-item">
+                <a href="">Tracks</a>
+              </li>
 
-                </a>
+              <li class="nav-item">
+                <a href="">Venue</a>
+              </li>
 
-            </div>
+              <li class="nav-item">
+                <a href="">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="button-area">
+            <a href="" class="common-btn"> Register Now </a>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-              <div class="nav-area">
+    <!-- Hero Section -->
 
-                <ul class="nav-list">
-
-                    <li class="nav-item">
-                        <a href="">Speakers</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="">Schedule</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="">Tracks</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="">Venue</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="">Blog</a>
-                    </li>
-
-                </ul>
-
-            </div>
-              <div class="button-area">
-
-                <a href="" class="common-btn">
-                    Register Now
-                </a>
-
-            </div>
-
-            </nav>
-
-    </div>
-
-</header>
-
-<!-- Hero Section -->
-
-<section class="hero">
-
-    <div class="container">
-
+    <section class="hero">
+      <div class="container">
         <div class="hero-content">
+          <h1>
+            Code.
+            <span>Connect.</span>
+            Create
+          </h1>
 
-            <h1>
-                Code.
-                <span>Connect.</span>
-                Create
-            </h1>
-
-            <p>
-                Join 4,000+ engineers, founders, and builders at the premier developer
-                conference of 2026. Three days of cutting-edge talks, hands-on
-                workshops, and meaningful connections.
-            </p>
+          <p>
+            Join 4,000+ engineers, founders, and builders at the premier
+            developer conference of 2026. Three days of cutting-edge talks,
+            hands-on workshops, and meaningful connections.
+          </p>
 
           <div class="hero-btn">
-              <a href="" class="common-btn">
-                Register Now
-            </a>
-
+            <a href="" class="common-btn"> Register Now </a>
           </div>
         </div>
+      </div>
+    </section>
 
-    </div>
+    <!--  Speaker Section  -->
 
-</section>
-
-<!--  Speaker Section  -->
-
-<section class="speakers-section">
-
-    <div class="container">
-
+    <section class="speakers-section">
+      <div class="container">
         <div class="speakers-title">
-            <h2>Meet the Speakers</h2>
+          <h2>Meet the Speakers</h2>
         </div>
 
         <div class="speakers-grid">
+          <div class="speaker-card">
+            <img src="./Images/andrej.png" alt="Andrej Karpathy" />
 
+            <div class="speaker-info">
+              <span class="speaker-category"> AI / ML </span>
 
+              <h3>Andrej Karpathy</h3>
 
-            <div class="speaker-card">
-
-                <img src="./Images/andrej.png" alt="Andrej Karpathy">
-
-                <div class="speaker-info">
-
-                    <span class="speaker-category">
-                        AI / ML
-                    </span>
-
-                    <h3>Andrej Karpathy</h3>
-
-                    <p>Pretraining Team, Anthropic</p>
-
-                </div>
-
+              <p>Pretraining Team, Anthropic</p>
             </div>
+          </div>
 
-            <div class="speaker-card">
+          <div class="speaker-card">
+            <img src="./Images/demis.png" alt="Demis Hassabis" />
 
-                <img src="./Images/demis.png" alt="Demis Hassabis">
+            <div class="speaker-info">
+              <span class="speaker-category"> Cloud & DevOps </span>
 
-                <div class="speaker-info">
+              <h3>Demis Hassabis</h3>
 
-                    <span class="speaker-category">
-                        Cloud & DevOps
-                    </span>
-
-                    <h3>Demis Hassabis</h3>
-
-                    <p>Co-Founder and CEO, Google DeepMind</p>
-
-                </div>
-
+              <p>Co-Founder and CEO, Google DeepMind</p>
             </div>
+          </div>
 
-        
+          <div class="speaker-card">
+            <img src="./Images/gary.png" alt="Gary Marcus" />
 
-            <div class="speaker-card">
+            <div class="speaker-info">
+              <span class="speaker-category"> Frontend </span>
 
-                <img src="./Images/gary.png" alt="Gary Marcus">
+              <h3>Gary Marcus</h3>
 
-                <div class="speaker-info">
-
-                    <span class="speaker-category">
-                        Frontend
-                    </span>
-
-                    <h3>Gary Marcus</h3>
-
-                    <p>Staff Engineer, Vercel</p>
-
-                </div>
-
+              <p>Staff Engineer, Vercel</p>
             </div>
+          </div>
 
-            <div class="speaker-card">
+          <div class="speaker-card">
+            <img src="./Images/mustafa.png" alt="Mustafa Suleyman" />
 
-                <img src="./Images/mustafa.png" alt="Mustafa Suleyman">
+            <div class="speaker-info">
+              <span class="speaker-category"> Security </span>
 
-                <div class="speaker-info">
+              <h3>Mustafa Suleyman</h3>
 
-                    <span class="speaker-category">
-                        Security
-                    </span>
-
-                    <h3>Mustafa Suleyman</h3>
-
-                    <p>CEO of Microsoft AI</p>
-
-                </div>
-
+              <p>CEO of Microsoft AI</p>
             </div>
-
+          </div>
         </div>
+      </div>
+    </section>
 
-    </div>
+    <!-- Pricing Section -->
 
-</section>
-
-<!-- Pricing Section -->
-
-<section class="pricing-section">
-
-    <div class="container">
-
+    <section class="pricing-section">
+      <div class="container">
         <div class="pricing-title">
+          <h2>Secure Your Spot</h2>
 
-            <h2>Secure Your Spot</h2>
-
-            <p>Early-bird pricing ends August 15, 2026.</p>
-
+          <p>Early-bird pricing ends August 15, 2026.</p>
         </div>
 
-          <div class="pricing-cards">
+        <div class="pricing-cards">
+          <div class="pricing-card">
+            <span class="plan-name">STANDARD</span>
 
+            <h3>$399</h3>
 
+            <p class="plan-duration">per person</p>
 
-            <div class="pricing-card">
+            <hr />
 
-                <span class="plan-name"></span>
+            <ul>
+              <li>Access to all 3 conference days</li>
 
-                <h3></h3>
+              <li>48 curated technical talks</li>
 
-                <p class="plan-duration"></p>
+              <li>2 workshop sessions</li>
 
-                <hr>
+              <li>Networking lunch & coffee breaks</li>
 
-                <ul>
+              <li>Conference swag bag</li>
 
-                    <li></li>
+              <li>Digital recordings (30 days)</li>
+            </ul>
 
-                    <li></li>
+            <a href="" class="common-btn standard-btn">Get Standard</a>
+          </div>
 
-                    <li></li>
+          <div class="pricing-card active-plan">
+            <span class="plan-name">PRO</span>
 
-                    <li></li>
+            <h3>$749</h3>
 
-                    <li></li>
+            <p class="plan-duration">per person</p>
 
-                    <li></li>
+            <hr />
 
-                </ul>
+            <ul>
+              <li>Everything in Standard</li>
 
-                <a href="" class="common-btn standard-btn">Get Standard</a>
+              <li>Unlimited workshop access</li>
 
-            </div>
+              <li>Speaker meet & greet</li>
 
-            
-                <span class="plan-name"></span>
+              <li>VIP networking dinner</li>
 
-                <h3></h3>
+              <li>Lifetime recording access</li>
 
-                <p class="plan-duration"></p>
+              <li>1-on-1 mentorship (30 min)</li>
+            </ul>
 
-                <hr>
+            <a href="" class="common-btn pro-btn">Get Pro</a>
+          </div>
 
-                <ul>
+          <div class="pricing-card">
+            <span class="plan-name">TEAM</span>
 
-                    <li></li>
+            <h3>$5,999</h3>
 
-                    <li></li>
+            <p class="plan-duration">up to 10 people</p>
 
-                    <li></li>
+            <hr />
 
-                    <li></li>
+            <ul>
+              <li>Everything in Pro (10 seats)</li>
+              <li>Dedicated team lounge access</li>
+              <li>Private workshop booking</li>
+              <li>Company logo on event page</li>
+              <li>Recruitment booth (1 day)</li>
+              <li>Priority customer support</li>
+            </ul>
 
-                    <li></li>
-
-                    <li></li>
-
-                </ul>
-
-                <a href="" class="common-btn standard-btn">Get Standard</a>
-
-            </div>
-
-            
-                <span class="plan-name"></span>
-
-                <h3></h3>
-
-                <p class="plan-duration"></p>
-
-                <hr>
-
-                <ul>
-
-                    <li></li>
-
-                    <li></li>
-
-                    <li></li>
-
-                    <li></li>
-
-                    <li></li>
-
-                    <li></li>
-
-                </ul>
-
-                <a href="" class="common-btn standard-btn">Get Standard</a>
-
-            </div>
-
-    </div>
-</section>    
-
-
-
-</body>
+            <a href="" class="common-btn team-btn">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
