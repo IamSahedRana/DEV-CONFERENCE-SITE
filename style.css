@@ -110,3 +110,47 @@ body{
     background:#1d46cb;
 
 }
+
+/* Hero Section CSS  */
+
+.hero{
+
+    width:100%;
+    min-height:100vh;
+
+    background-image:
+        url("./Images/banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background-color: transparent black;
+}
+
+.hero-content{
+    max-width:760px;
+    margin:0 auto;
+}
+
+.hero-content h1{
+    font-size:72px;
+    font-weight:800;
+    color:white;
+    line-height:1.1;
+    margin-bottom:28px;
+}
+
+.hero-content h1 span{
+    font-style:italic;
+}
+
+.hero-content p{
+    font-size:28px;
+    line-height:1.6;
+    color:white;
+    margin-bottom:60px;
+}
