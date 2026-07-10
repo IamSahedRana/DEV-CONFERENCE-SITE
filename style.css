@@ -582,3 +582,101 @@ body{
     color:#2d32d3;
 
 }
+
+/* Footer Section */
+
+.footer-section{
+
+    background:#0f1724;
+    padding:35px 0;
+
+}
+
+.footer-top{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.footer-logo img{
+
+    height:55px;
+    display:block;
+
+}
+
+.footer-menu ul{
+
+    display:flex;
+    list-style:none;
+    gap:40px;
+
+}
+
+.footer-menu ul li a{
+
+    text-decoration:none;
+    color:#7d8798;
+    font-size:17px;
+    transition:.3s;
+
+}
+
+.footer-menu ul li a:hover{
+
+    color:#ffffff;
+
+}
+
+.footer-social{
+
+    display:flex;
+    gap:25px;
+
+}
+
+.footer-social a{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.footer-social img{
+
+    width:22px;
+    height:22px;
+    display:block;
+    transition:.3s;
+
+}
+
+.footer-social img:hover{
+
+    transform:scale(1.1);
+
+}
+
+.footer-section hr{
+
+    margin:28px 0;
+    border:none;
+    border-top:1px solid #2b3445;
+
+}
+
+.footer-bottom{
+
+    text-align:center;
+
+}
+
+.footer-bottom p{
+
+    color:#6f7888;
+    font-size:16px;
+
+}
