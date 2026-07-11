@@ -4,6 +4,11 @@
 
 The goal of this project was to practice building a complete multi-section landing page from scratch while improving HTML and CSS fundamentals.
 
+## 🌐 Live Demo
+
+🔗 **GitHub Pages:**  
+https://iamsahedrana.github.io/DEV-CONFERENCE-SITE/
+
 # Features
 
 - Responsive Navigation Bar
