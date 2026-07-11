@@ -1,1 +1,3 @@
-h
+# DEV-CONF-SITE : Prompt for AI Section
+
+I am developing a landing page named Dev Conf 2026 using only HTML and CSS. I already have the some sections: Navbar, Hero, About, Speakers, Schedule, Pricing, and Footer. Now, I want to create a new section just above the footer area, The section must stay relevant to the DevConf 2026 (I attach the Ui image as reference ) i am instruct with some ideas from those you can use one, two or both e.g. Sponsors, Venue, FAQ, Newsletter Signup, Hackathon Details, Past Highlights, Job Board, etc. and remember , you don't use any frameworks or libraries
