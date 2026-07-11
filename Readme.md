@@ -205,9 +205,9 @@ While building this project I practiced:
 
 # 6. Sponsors & Footer
 
-> Screenshot: `images/footer-section.png`
+> Screenshot: `./Preview/Footer.png`
 
-![Sponsors & Footer](./Preview/)
+![Sponsors & Footer](./Preview/Footer.png)
 
 ### Description
 
